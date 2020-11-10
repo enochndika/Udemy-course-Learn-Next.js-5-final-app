@@ -1,0 +1,64 @@
+.globalImg{
+  width: 100%;
+  height: auto;
+}
+
+.globalButton{
+  border-radius: 20px;
+  background-color: #00695c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  font-size: 13px;
+}
+
+.globalColor {
+  color: #00695c;
+}
+
+.activated{
+  font-weight: bold;
+  background-color:#00695c;
+  pointer-events: none;
+  color: white;
+}
+
+
+.custom-paginate {
+  display: flex;
+  list-style: none;
+  height: 40px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  width: fit-content;
+  align-items: center;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.paginate {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px){
+  .globalImg {
+    width: 100%;
+    height: 250px;
+  }
+
+  .carouselItems{
+    transform: translate(0%, -30%);
+  }
+
+  .carouselMain{
+    height: 530px;
+  }
+  .paginateCenter{
+    width: 35%;
+    margin: 0 auto;
+  }
+}
